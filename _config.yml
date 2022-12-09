@@ -1,0 +1,53 @@
+# HTML 语言配置
+lang: zh-cmn-Hans
+
+# 网站设置
+title: 今识笔记
+email: lordking@163.com
+description: >
+  Java、Python、Rust、C、DDD、设计模式。还有那些哲学、经济学、产品、商业、管理...
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: lordking76
+github_username:  lordking
+copyright: blog.weekstone.com
+
+# 主题设置
+# remote_theme: chrisrhymes/bulma-clean-theme
+# HTML 语言配置
+lang: zh-cmn-Hans
+
+# 概要设置
+title: 今识笔记
+logo: "/assets/images/logo.png"
+description: >
+  Java、Python、Rust、C、DDD、设计模式。还有那些哲学、经济学、产品、商业、管理...
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+relative_url: favicon.png
+
+email: lordking@163.com
+twitter_username: lordking76
+github_username:  lordking
+copyright: blog.weekstone.com
+
+# 主题设置
+remote_theme: just-the-docs/just-the-docs
+
+# 基于主题的网站设置
+gh_edit_link: false
+mermaid:
+  version: "9.2.2"
+
+
+footer_content: >
+  <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可。
+
+
+exclude:
+  - .devcontainer
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
