@@ -1,3 +1,6 @@
 .devcontainer
 _site/
+_sites/
 Gemfile.lock
+.DS_Store
+
