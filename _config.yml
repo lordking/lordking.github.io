@@ -8,9 +8,9 @@ description: >
   Java、Python、Rust、C、DDD、设计模式。还有那些哲学、经济学、产品、商业、管理...
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: lordking76
-github_username:  lordking
-copyright: blog.weekstone.com
+
+permalink: /:categories/:year/:month/:day/:title:output_ext
+
 
 # 主题设置
 # remote_theme: chrisrhymes/bulma-clean-theme

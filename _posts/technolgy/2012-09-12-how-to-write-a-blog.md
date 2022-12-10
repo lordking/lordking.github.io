@@ -1,5 +1,7 @@
 ---
-layout: note
+layout: post
+category: 技术
+tags: helloworld
 title:  "Welcome to Jekyll!"
 ---
 
