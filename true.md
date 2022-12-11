@@ -1,6 +1,6 @@
 ---
 layout: post
-category: _post/technolgy
+category: technolgy
 tags: Jekyll
 title: 我的个人网站建设笔记
 share: true
