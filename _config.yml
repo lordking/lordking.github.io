@@ -1,22 +1,6 @@
 # HTML 语言配置
 lang: zh-cmn-Hans
 
-# 网站设置
-title: 今识笔记
-email: lordking@163.com
-description: >
-  Java、Python、Rust、C、DDD、设计模式。还有那些哲学、经济学、产品、商业、管理...
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-
-permalink: /:categories/:year/:month/:day/:title:output_ext
-
-
-# 主题设置
-# remote_theme: chrisrhymes/bulma-clean-theme
-# HTML 语言配置
-lang: zh-cmn-Hans
-
 # 概要设置
 title: 今识笔记
 logo: "/assets/images/logo.png"
@@ -24,7 +8,6 @@ description: >
   Java、Python、Rust、C、DDD、设计模式。还有那些哲学、经济学、产品、商业、管理...
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-relative_url: favicon.png
 
 email: lordking@163.com
 twitter_username: lordking76
@@ -53,6 +36,3 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-
-collections:
-  - notes
