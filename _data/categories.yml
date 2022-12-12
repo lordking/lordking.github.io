@@ -1,2 +1,10 @@
 - name: technology
   title: 技术
+- name: product
+  title: 产品
+- name: philosophy
+  title: 哲学
+- name: management
+  title: 管理
+- name: thinking
+  title: 思维
