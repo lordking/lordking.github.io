@@ -1,12 +1,10 @@
 ---
 layout: post
-category: technolgy
+category: technology
 tags: Jekyll
 title: 我的个人网站建设笔记
-share: _posts/technology/2022-12-11-build-my-site
+share:  _posts/technology/2022-12-11-build-my-site
 ---
-
-内容正在准备中
 
 # 我的个人网站建设笔记
 
