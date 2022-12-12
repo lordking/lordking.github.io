@@ -6,6 +6,8 @@ title: 康威定律
 share:  _posts/technology/2022-12-12-conways-law
 ---
 
+# 康威定律
+
 ## 历史
 
 由计算机程序员Melvin Conway在1967年提出。
