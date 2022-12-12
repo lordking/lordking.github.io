@@ -9,7 +9,8 @@ description: >
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-permalink: /posts/:categories/:year/:month/:day/:title:output_ext
+# permalink: /posts/:categories/:year/:month/:day/:title:output_ext
+permalink: /posts/:categories/:year-:month-:day-:title:output_ext
 
 email: lordking@163.com
 twitter_username: lordking76
