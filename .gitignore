@@ -1,6 +1,6 @@
 .devcontainer
 _site/
-_sites/
+.obsidian
+
 Gemfile.lock
 .DS_Store
-
