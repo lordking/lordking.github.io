@@ -18,7 +18,7 @@ share:  _posts/technology/2022-12-11-build-my-site
 
 在GitHub创建一个新的公开仓库（`public repository`），创建时注意命名为username.github.io，username是你在GitHub的用户名称。例如我的用户名是`lordking`，那么我的个人网站就是`lordking.github.io`。为了描述方便，后面内容都以我的个人网站作为例子。
 
-
+![create_site_in_github.png](../../assets/images/technology/create_site_in_github.png)
 
 仓库创建成功后，即代表着你已经在GitHub创建了一个免费个人网站，接下来就是要放上你的网站内容。
 
@@ -95,7 +95,7 @@ Dev Containers: Open Folder in Container...
 
 点击确定后将出现如下对话框，选择第二个选项`From Dockerfile`
 
-
+![add_dev_container_configuration_files.png](../../assets/images/technology/add_dev_container_configuration_files.png)
 
 如果成功，将会运行镜像名的开头为`vsc-`的容器
 
@@ -179,7 +179,7 @@ bundle exec jekyll serve --livereload
 1. 进入你创建的仓库，如上例：`https://github.com/lordking/lordking.github.io`
 2. 打开`Settings`
 3. 点击`Pages`，输入如下类型配置
-
+![github_settings_pages.png](../../assets/images/technology/github_settings_pages.png)
 
 
 ```
