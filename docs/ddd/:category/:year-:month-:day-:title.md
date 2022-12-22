@@ -1,13 +1,13 @@
 ---
 layout: default
-tags: DDD模式语言, DDD扩展模式语言, 通用模式语言
-status: 积压, 待编辑, 编辑中, 待审核, 已完成
-priority: 1,2,3,4,5
-title: 读书笔记标题
+tags: DDD模式语言
+status: 积压
+priority: 4
+title: 工厂 Factory
 share:  ddd/:category/:year-:month-:day-:title
 ---
 
-# 各行其道 SeparateWay
+# 工厂 Factory
 
 ## 1 参考资料
 
@@ -17,13 +17,13 @@ share:  ddd/:category/:year-:month-:day-:title
 
 这里填写...
 
-## 2 什么是各行其道
+## 2 什么是[名词]（必须）
 
 > 有关该名词的定义。
 > 
 > 名词（English name），....具体概念描述....
 
-各行其道（SeparateWay）描述了一种情况，使用各种通用语言来与一个或多个限界上下文集成这样的方式不能产生显著的回报。也许你所寻求的功能并不能由任何一种通用语言提供。在这种情况下，只能在限界上下文中创造属于自己的特殊解决方案，并放弃针对这种特殊情况的集成。
+这里填写...
 
 ## 3 影响（必须）
 
@@ -98,9 +98,181 @@ flowchart
 
 > 描述使用该模式过程中需要注意的提示要点，或出现的常见问题及其对应的解决方案。
 
-各行其道意味着两个上下文之间根本没有关系，不需要控制，也不需要承诺。在一个复杂的模型中，一定存在着许多上下文，而大部分上下文之间应该是没有直接依赖关系的。
+使用工厂模式创建领域对象
 
-如果任何两个上下文之间都有直接联系，整个模型就要走向另一个极端：大泥球。两个上下文之间没有任何依赖，自由地独立演进，这应该是我们最希望的。因此，在可能的情况下，我们应该把两个上下文分开，让它们各行其道。
+- 当领域聚合A需要访问领域聚合B时，就可以在A中使用工厂模式创建B的对象
+- 领域聚合内部存在复杂的业务规则时，就需要工厂模式
+
+常用的工厂设计模式包含
+
+- 简单工厂
+- 工厂方法 Factory Method
+- 抽象工厂 Abstract Factory
+- 创建者模式 Builder
+
+### 领域模型中的工厂方法
+
+除了创建对象之外，工厂并不需要承担领域模型中的其他职责
+
+封装了所有创建对象的复杂操作过程，同时，它并不需要客户去引用那个实际被创建的对象。
+
+### 聚合根中的工厂方法
+
+对于聚合来说，我们应该一次性地创建整个聚合，并且确保它的不变条件得到满足。
+
+在聚合根中实现用于创建**子实体对象**的工厂方法。如下示例：
+
+```mermaid
+classDiagram
+	class Product {
+		<<Aggregate Root>>
+		+ BacklogItem planBacklogItem(...)
+		+ Release scheduleRelease(...)
+		+ Sprint scheduleSprint(...)
+	}
+
+	class Release {
+		<<Entity>>
+	}
+
+	class Sprint {
+		<<Entity>>
+	}
+
+	Product o--> Release
+	Product o--> Sprint
+```
+
+虽然在实际代码中通过ProductId已经拆解了上面大的聚合逻辑，但是在聚合根中提供了创建子实体的工厂方法。
+
+```java
+public Product extends Entity {
+	...
+	public BacklogItem planBacklogItem(
+            BacklogItemId aNewBacklogItemId,
+            String aSummary,
+            String aCategory,
+            BacklogItemType aType,
+            StoryPoints aStoryPoints) {
+
+        BacklogItem backlogItem =
+            new BacklogItem(
+                    this.tenantId(),
+                    this.productId(),
+                    aNewBacklogItemId,
+                    aSummary,
+                    aCategory,
+                    aType,
+                    BacklogItemStatus.PLANNED,
+                    aStoryPoints);
+
+        DomainEventPublisher
+            .instance()
+            .publish(new ProductBacklogItemPlanned(
+                    backlogItem.tenantId(),
+                    backlogItem.productId(),
+                    backlogItem.backlogItemId(),
+                    backlogItem.summary(),
+                    backlogItem.category(),
+                    backlogItem.type(),
+                    backlogItem.storyPoints()));
+
+        return backlogItem;
+    }
+}
+```
+
+### 领域服务中的工厂
+
+在集成限界上下文中，领域服务（7）扮演了工厂的角色，它用于创建不同类型的聚合和值对象。
+
+使用工厂模式实现了两个上下文的通用语言翻译
+
+- 在领域模型中，领域服务类负责把其他上下文的对象翻译成当前业务领域中上下文的对象。此时的领域服务实际上扮演了工厂的角色，采用的是抽象工厂的设计模式。
+
+```java
+// 该领域服务类将身份与访问上下文中的对象翻译成协作上下文中的对象。
+package com.saasovation.collaboration.domain.model.collaborator;
+
+import com.saasovation.collaboration.domain.model.tenant.Tenant;
+
+public interface CollaboratorService {
+
+    public Author authorFrom(Tenant aTenant, String anIdentity);
+
+    public Creator creatorFrom(Tenant aTenant, String anIdentity);
+
+    public Moderator moderatorFrom(Tenant aTenant, String anIdentity);
+
+    public Owner ownerFrom(Tenant aTenant, String anIdentity);
+
+    public Participant participantFrom(Tenant aTenant, String anIdentity);
+}
+```
+
+这里的对象是简单的值对象，它们都继承collaborator
+
+```java
+public abstract class Collaborator
+        implements Comparable<Collaborator>, Serializable {
+
+		...
+}
+
+public final class Author extends Collaborator { 
+	...
+}
+```
+
+委派给适配器层中某个实现类实现上下文的对象翻译工作
+
+```java
+package com.saasovation.collaboration.port.adapter.service;
+
+public class TranslatingCollaboratorService implements CollaboratorService {
+
+		...
+		@Override
+    public Author authorFrom(Tenant aTenant, String anIdentity) {
+        Author author =
+                this.userInRoleAdapter()
+                    .toCollaborator(
+                            aTenant,
+                            anIdentity,
+                            "Author",
+                            Author.class);
+
+        return author;
+    }
+		...
+}
+```
+
+定义被创建对象的抽象类型
+
+```java
+package com.saasovation.collaboration.port.adapter.service;
+
+public interface UserInRoleAdapter {
+
+    public <T extends Collaborator> T toCollaborator(
+            Tenant aTenant,
+            String anIdentity,
+            String aRoleName,
+            Class<T> aCollaboratorClass);
+}
+```
+
+实现被创建对象
+
+```java
+package com.saasovation.collaboration.port.adapter.service;
+
+public class HttpUserInRoleAdapter implements UserInRoleAdapter {
+   ...
+}
+```
+
 
 ## 6 样例（必须）
 
@@ -113,4 +285,3 @@ flowchart
 > 学习过程的思考笔记
 
 这里填写...
-
