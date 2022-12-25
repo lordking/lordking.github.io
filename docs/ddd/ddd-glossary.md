@@ -4,9 +4,9 @@ tags: DDD
 status: 积压
 priority: 5
 layout: default
-directory: ddd
 nav_order: 2
 parent: DDD工作坊
+directory: ddd
 publish: ddd-glossary
 ---
 
@@ -98,7 +98,7 @@ publish: ddd-glossary
 | [展现模型 Presentation Model](../../%E5%B1%95%E7%8E%B0%E6%A8%A1%E5%9E%8B%20Presentation%20Model.md)       | 积压     |
 | [基础设施 Infrastructure](../../%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD%20Infrastructure.md)               | 积压     |
 | [Actor模型](../../Actor%E6%A8%A1%E5%9E%8B.md)                                       | 积压     |
-| [层超类型 Layer Supertype](../../ddd/glossary/layer-supertype.md)             | 积压     |
-| [表象状态传递 REST](../../rest.md)                               | 积压     |
+| [层超类型 Layer Supertype](./glossary/layer-supertype.md)             | 积压     |
+| [表象状态传递 REST](./glossary/rest.md)                               | 积压     |
 
 
