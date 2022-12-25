@@ -10,7 +10,7 @@
 
 在GitHub创建一个新的公开仓库（`public repository`），创建时注意命名为username.github.io，username是你在GitHub的用户名称。例如我的用户名是`lordking`，那么我的个人网站就是`lordking.github.io`。为了描述方便，后面内容都以我的个人网站作为例子。
 
-![create_site_in_github](assets/img/create_site_in_github.png)
+![create_site_in_github](assets/images/create_site_in_github.png)
 
 仓库创建成功后，即代表着你已经在GitHub创建了一个免费个人网站，接下来就是要放上你的网站内容。
 
@@ -87,7 +87,7 @@ Dev Containers: Open Folder in Container...
 
 点击确定后将出现如下对话框，选择第二个选项`From Dockerfile`
 
-![create_site_in_github](assets/img/add_dev_container_configuration_files.png)
+![create_site_in_github](assets/images/add_dev_container_configuration_files.png)
 
 如果成功，将会运行镜像名的开头为`vsc-`的容器
 
