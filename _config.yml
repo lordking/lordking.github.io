@@ -15,8 +15,8 @@ github_username:  lordking
 copyright: blog.weekstone.com
 
 # 主题设置
-# remote_theme: just-the-docs/just-the-docs
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
+# theme: just-the-docs
 
 # 基于主题的网站设置
 gh_edit_link: false
