@@ -9,4 +9,6 @@ directory: ddd
 publish: index
 ---
 
+# DDD工作坊
+
 > 思考一下，能否用DDD的思想对DDD领域知识进行分析。
