@@ -1,11 +1,13 @@
 ---
-title: 首页
+title: DDD工作坊
 status: 积压
-priority: 5
+priority: 1
 layout: default
-nav_order: 1
+categories: ddd
+nav_order: 2
+parent: DDD工作坊
 publish: index
-permalink: /
+has_children: true
 ---
 
-从这里开始
+> 思考一下，能否用DDD的思想对DDD领域知识进行分析。
