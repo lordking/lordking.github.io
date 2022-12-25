@@ -16,11 +16,11 @@ publish: ddd-glossary
 由《领域驱动设计》和《领域驱动设计参考》定义的领域驱动设计的DDD模式语言
 
 在DDD模式语言中，最为核心的概念
-- 领域
-- 通用语言
+- [领域 Domain](%E9%A2%86%E5%9F%9F%20Domain)
+- [通用语言 Ubiquitous Language](%E9%80%9A%E7%94%A8%E8%AF%AD%E8%A8%80%20Ubiquitous%20Language)
 - 上下文
-- 限界上下文
-- 领域模型
+- [限界上下文 Bounded Context](%E9%99%90%E7%95%8C%E4%B8%8A%E4%B8%8B%E6%96%87%20Bounded%20Context)
+- [领域模型 Domain Model](%E9%A2%86%E5%9F%9F%E6%A8%A1%E5%9E%8B%20Domain%20Model)
 
 | File                                                                                                   | status |
 | ------------------------------------------------------------------------------------------------------ | ------ |
