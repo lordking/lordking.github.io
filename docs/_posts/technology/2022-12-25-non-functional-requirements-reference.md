@@ -1,11 +1,12 @@
 ---
 title: 非功能性需求参考清单
-tags: [技术经验, 软件架构]
+tags: 软件架构
+categories: technology
 status: 积压
 priority: 1
 layout: post
-category: technology
-publish: _posts/technology/2022-12-25-non-functional-requirements-reference
+directory: _posts/technology
+publish: 2022-12-25-non-functional-requirements-reference
 ---
 
 # 非功能性需求参考清单
