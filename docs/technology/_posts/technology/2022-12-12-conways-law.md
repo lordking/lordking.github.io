@@ -1,6 +1,6 @@
 ---
 title: 康威定律
-tags: [技术经验, 软件架构]
+tags: 软件架构
 status: 积压
 priority: 1
 layout: post
