@@ -34,65 +34,65 @@ publish: ddd-pattern-landscape
 
 | File                                                                                              | tags          | status |
 | ------------------------------------------------------------------------------------------------- | ------------- | ------ |
-| [[02DDD工作坊/DDD词汇表/上下文映射 Context Mapping.md\|上下文映射 Context Mapping]]                               | DDD/DDD模式语言   | 积压     |
-| [[02DDD工作坊/DDD词汇表/值对象 Value Object.md\|值对象 Value Object]]                                         | DDD/DDD模式语言   | 积压     |
-| [[02DDD工作坊/DDD词汇表/共享内核 Shared Kernel.md\|共享内核 Shared Kernel]]                                     | DDD/DDD模式语言   | 积压     |
-| [[02DDD工作坊/DDD词汇表/发布的语言 Published Language.md\|发布的语言 Published Language]]                         | DDD/DDD模式语言   | 积压     |
-| [[02DDD工作坊/DDD词汇表/各行其道 SeparateWay.md\|各行其道 SeparateWay]]                                         | DDD/DDD模式语言   | 积压     |
-| [[02DDD工作坊/DDD词汇表/合作关系 Partnership.md\|合作关系 Partnership]]                                         | DDD/DDD模式语言   | 积压     |
-| [[02DDD工作坊/DDD词汇表/大泥球 Big Ball of Mud.md\|大泥球 Big Ball of Mud]]                                   | DDD/DDD模式语言   | 积压     |
-| [[02DDD工作坊/DDD词汇表/子域 Sub Domain.md\|子域 Sub Domain]]                                               | DDD/DDD模式语言   | 积压     |
-| [[02DDD工作坊/DDD词汇表/实体 Entity.md\|实体 Entity]]                                                       | DDD/DDD模式语言   | 积压     |
-| [[02DDD工作坊/DDD词汇表/客户-供应商 Custom Supplier.md\|客户-供应商 Custom Supplier]]                             | DDD/DDD模式语言   | 积压     |
-| [[02DDD工作坊/DDD词汇表/工厂 Factory.md\|工厂 Factory]]                                                     | DDD/DDD模式语言   | 积压     |
-| [[02DDD工作坊/DDD词汇表/已发布的语言 Published Language.md\|已发布的语言 Published Language]]                       | DDD/DDD模式语言   | 积压     |
-| [[02DDD工作坊/DDD词汇表/开放主机服务 Open Host Service.md\|开放主机服务 Open Host Service]]                         | DDD/DDD模式语言   | 积压     |
-| [[02DDD工作坊/DDD词汇表/意图展现接口 Intention Revealing Interface.md\|意图展现接口 Intention Revealing Interface]] | DDD/DDD模式语言   | 积压     |
-| [[02DDD工作坊/DDD词汇表/数据传输对象 DTO.md\|数据传输对象 DTO]]                                                     | DDD/DDD模式语言   | 积压     |
-| [[02DDD工作坊/DDD词汇表/核心域 Core Domain.md\|核心域 Core Domain]]                                           | DDD/DDD模式语言   | 积压     |
-| [[02DDD工作坊/DDD词汇表/聚合 Aggregate.md\|聚合 Aggregate]]                                                 | DDD/DDD模式语言   | 积压     |
-| [[02DDD工作坊/DDD词汇表/资源库 Repository.md\|资源库 Repository]]                                             | DDD/DDD模式语言   | 积压     |
-| [[02DDD工作坊/DDD词汇表/跟随者 Conformist.md\|跟随者 Conformist]]                                             | DDD/DDD模式语言   | 积压     |
-| [[02DDD工作坊/DDD词汇表/通用语言 Ubiquitous Language.md\|通用语言 Ubiquitous Language]]                         | DDD/DDD模式语言   | 积压     |
-| [[02DDD工作坊/DDD词汇表/限界上下文 Bounded Context.md\|限界上下文 Bounded Context]]                               | DDD/DDD模式语言   | 积压     |
-| [[02DDD工作坊/DDD词汇表/领域 Domain.md\|领域 Domain]]                                                       | DDD/DDD模式语言   | 积压     |
-| [[02DDD工作坊/DDD词汇表/领域专家 Domain Expert.md\|领域专家 Domain Expert]]                                     | DDD/DDD模式语言   | 积压     |
-| [[02DDD工作坊/DDD词汇表/领域模型 Domain Model.md\|领域模型 Domain Model]]                                       | DDD/DDD模式语言   | 积压     |
-| [[02DDD工作坊/DDD词汇表/命令与查询职责分离 CQRS.md\|命令与查询职责分离 CQRS]]                                             | DDD/DDD扩展模式语言 | 积压     |
-| [[02DDD工作坊/DDD词汇表/命令模型 Command.md\|命令模型 Command]]                                                 | DDD/DDD扩展模式语言 | 积压     |
-| [[02DDD工作坊/DDD词汇表/应用服务 Application Service.md\|应用服务 Application Service]]                         | DDD/DDD扩展模式语言 | 积压     |
-| [[02DDD工作坊/DDD词汇表/战术设计 Tactical Design.md\|战术设计 Tactical Design]]                                 | DDD/DDD扩展模式语言 | 积压     |
-| [[02DDD工作坊/DDD词汇表/战略设计 Stategic Desigin.md\|战略设计 Stategic Desigin]]                               | DDD/DDD扩展模式语言 | 积压     |
-| [[02DDD工作坊/DDD词汇表/解决方案空间 Solution Space.md\|解决方案空间 Solution Space]]                               | DDD/DDD扩展模式语言 | 积压     |
-| [[02DDD工作坊/DDD词汇表/贫血模型 Anemic Domain Object.md\|贫血模型 Anemic Domain Object]]                       | DDD/DDD扩展模式语言 | 积压     |
-| [[02DDD工作坊/DDD词汇表/问题空间 Problem Space.md\|问题空间 Problem Space]]                                     | DDD/DDD扩展模式语言 | 积压     |
-| [[02DDD工作坊/DDD词汇表/领域依赖求解器 DDR.md\|领域依赖求解器 DDR]]                                                   | DDD/DDD扩展模式语言 | 积压     |
-| [[02DDD工作坊/DDD词汇表/领域服务 Domain Service.md\|领域服务 Domain Service]]                                   | DDD/DDD扩展模式语言 | 积压     |
-| [[02DDD工作坊/DDD词汇表/领域策略 Policy Strategy.md\|领域策略 Policy Strategy]]                                 | DDD/DDD扩展模式语言 | 积压     |
-| [[02DDD工作坊/DDD词汇表/领域规格 Specification.md\|领域规格 Specification]]                                     | DDD/DDD扩展模式语言 | 积压     |
-| [[02DDD工作坊/DDD词汇表/领域负载对象 DPO.md\|领域负载对象 DPO]]                                                     | DDD/DDD扩展模式语言 | 积压     |
-| [[02DDD工作坊/DDD词汇表/Actor模型.md\|Actor模型]]                                                           | DDD/通用模式语言    | 积压     |
-| [[02DDD工作坊/DDD词汇表/事件溯源 Event Sourcing.md\|事件溯源 Event Sourcing]]                                   | DDD/通用模式语言    | 积压     |
-| [[02DDD工作坊/DDD词汇表/分层架构 Layered Architecture.md\|分层架构 Layered Architecture]]                       | DDD/通用模式语言    | 积压     |
-| [[02DDD工作坊/DDD词汇表/基础设施 Infrastructure.md\|基础设施 Infrastructure]]                                   | DDD/通用模式语言    | 积压     |
-| [[02DDD工作坊/DDD词汇表/层超类型 Layer Supertype.md\|层超类型 Layer Supertype]]                                 | DDD/通用模式语言    | 积压     |
-| [[02DDD工作坊/DDD词汇表/展现模型 Presentation Model.md\|展现模型 Presentation Model]]                           | DDD/通用模式语言    | 积压     |
-| [[02DDD工作坊/DDD词汇表/建造者模式 Builder.md\|建造者模式 Builder]]                                               | DDD/通用模式语言    | 积压     |
-| [[02DDD工作坊/DDD词汇表/持续查询 Continuous Query.md\|持续查询 Continuous Query]]                               | DDD/通用模式语言    | 积压     |
-| [[02DDD工作坊/DDD词汇表/持续集成 Continous Integration.md\|持续集成 Continous Integration]]                     | DDD/通用模式语言    | 积压     |
-| [[02DDD工作坊/DDD词汇表/断言 Assertion.md\|断言 Assertion]]                                                 | DDD/通用模式语言    | 积压     |
-| [[02DDD工作坊/DDD词汇表/最终一致性.md\|最终一致性]]                                                               | DDD/通用模式语言    | 积压     |
-| [[02DDD工作坊/DDD词汇表/模型 Model.md\|模型 Model]]                                                         | DDD/通用模式语言    | 积压     |
-| [[02DDD工作坊/DDD词汇表/消息机制.md\|消息机制]]                                                                 | DDD/通用模式语言    | 积压     |
-| [[02DDD工作坊/DDD词汇表/消费者驱动契约.md\|消费者驱动契约]]                                                           | DDD/通用模式语言    | 积压     |
-| [[02DDD工作坊/DDD词汇表/用户界面 User Interface.md\|用户界面 User Interface]]                                   | DDD/通用模式语言    | 积压     |
-| [[02DDD工作坊/DDD词汇表/管道和过滤器模式 Pipe and Filter.md\|管道和过滤器模式 Pipe and Filter]]                         | DDD/通用模式语言    | 积压     |
-| [[02DDD工作坊/DDD词汇表/表象状态传递 REST.md\|表象状态传递 REST]]                                                   | DDD/通用模式语言    | 积压     |
-| [[02DDD工作坊/DDD词汇表/观察者模式 Observer.md\|观察者模式 Observer]]                                             | DDD/通用模式语言    | 积压     |
-| [[02DDD工作坊/DDD词汇表/调停者模式.md\|调停者模式]]                                                               | DDD/通用模式语言    | 积压     |
-| [[02DDD工作坊/DDD词汇表/超媒体展现 HATEOAS.md\|超媒体展现 HATEOAS]]                                               | DDD/通用模式语言    | 积压     |
-| [[02DDD工作坊/DDD词汇表/远程过程调用 RPC.md\|远程过程调用 RPC]]                                                     | DDD/通用模式语言    | 积压     |
-| [[02DDD工作坊/DDD词汇表/防腐层 Anticorruption Layer.md\|防腐层 Anticorruption Layer]]                         | DDD/通用模式语言    | 积压     |
-| [[02DDD工作坊/DDD词汇表/单一职责原则 SRP.md\|单一职责原则 SRP]]                                                     | 软件设计原则        | 积压     |
+| [上下文映射 Context Mapping](../../%E4%B8%8A%E4%B8%8B%E6%96%87%E6%98%A0%E5%B0%84%20Context%20Mapping.md)                               | DDD/DDD模式语言   | 积压     |
+| [值对象 Value Object](../../%E5%80%BC%E5%AF%B9%E8%B1%A1%20Value%20Object.md)                                         | DDD/DDD模式语言   | 积压     |
+| [共享内核 Shared Kernel](../../%E5%85%B1%E4%BA%AB%E5%86%85%E6%A0%B8%20Shared%20Kernel.md)                                     | DDD/DDD模式语言   | 积压     |
+| [发布的语言 Published Language](../../%E5%8F%91%E5%B8%83%E7%9A%84%E8%AF%AD%E8%A8%80%20Published%20Language.md)                         | DDD/DDD模式语言   | 积压     |
+| [各行其道 SeparateWay](../../%E5%90%84%E8%A1%8C%E5%85%B6%E9%81%93%20SeparateWay.md)                                         | DDD/DDD模式语言   | 积压     |
+| [合作关系 Partnership](../../%E5%90%88%E4%BD%9C%E5%85%B3%E7%B3%BB%20Partnership.md)                                         | DDD/DDD模式语言   | 积压     |
+| [大泥球 Big Ball of Mud](../../%E5%A4%A7%E6%B3%A5%E7%90%83%20Big%20Ball%20of%20Mud.md)                                   | DDD/DDD模式语言   | 积压     |
+| [子域 Sub Domain](../../%E5%AD%90%E5%9F%9F%20Sub%20Domain.md)                                               | DDD/DDD模式语言   | 积压     |
+| [实体 Entity](../../%E5%AE%9E%E4%BD%93%20Entity.md)                                                       | DDD/DDD模式语言   | 积压     |
+| [客户-供应商 Custom Supplier](../../%E5%AE%A2%E6%88%B7-%E4%BE%9B%E5%BA%94%E5%95%86%20Custom%20Supplier.md)                             | DDD/DDD模式语言   | 积压     |
+| [工厂 Factory](../../%E5%B7%A5%E5%8E%82%20Factory.md)                                                     | DDD/DDD模式语言   | 积压     |
+| [已发布的语言 Published Language](../../%E5%B7%B2%E5%8F%91%E5%B8%83%E7%9A%84%E8%AF%AD%E8%A8%80%20Published%20Language.md)                       | DDD/DDD模式语言   | 积压     |
+| [开放主机服务 Open Host Service](../../%E5%BC%80%E6%94%BE%E4%B8%BB%E6%9C%BA%E6%9C%8D%E5%8A%A1%20Open%20Host%20Service.md)                         | DDD/DDD模式语言   | 积压     |
+| [意图展现接口 Intention Revealing Interface](../../%E6%84%8F%E5%9B%BE%E5%B1%95%E7%8E%B0%E6%8E%A5%E5%8F%A3%20Intention%20Revealing%20Interface.md) | DDD/DDD模式语言   | 积压     |
+| [数据传输对象 DTO](../../%E6%95%B0%E6%8D%AE%E4%BC%A0%E8%BE%93%E5%AF%B9%E8%B1%A1%20DTO.md)                                                     | DDD/DDD模式语言   | 积压     |
+| [核心域 Core Domain](../../%E6%A0%B8%E5%BF%83%E5%9F%9F%20Core%20Domain.md)                                           | DDD/DDD模式语言   | 积压     |
+| [聚合 Aggregate](../../%E8%81%9A%E5%90%88%20Aggregate.md)                                                 | DDD/DDD模式语言   | 积压     |
+| [资源库 Repository](../../%E8%B5%84%E6%BA%90%E5%BA%93%20Repository.md)                                             | DDD/DDD模式语言   | 积压     |
+| [跟随者 Conformist](../../%E8%B7%9F%E9%9A%8F%E8%80%85%20Conformist.md)                                             | DDD/DDD模式语言   | 积压     |
+| [通用语言 Ubiquitous Language](../../%E9%80%9A%E7%94%A8%E8%AF%AD%E8%A8%80%20Ubiquitous%20Language.md)                         | DDD/DDD模式语言   | 积压     |
+| [限界上下文 Bounded Context](../../%E9%99%90%E7%95%8C%E4%B8%8A%E4%B8%8B%E6%96%87%20Bounded%20Context.md)                               | DDD/DDD模式语言   | 积压     |
+| [领域 Domain](../../%E9%A2%86%E5%9F%9F%20Domain.md)                                                       | DDD/DDD模式语言   | 积压     |
+| [领域专家 Domain Expert](../../%E9%A2%86%E5%9F%9F%E4%B8%93%E5%AE%B6%20Domain%20Expert.md)                                     | DDD/DDD模式语言   | 积压     |
+| [领域模型 Domain Model](../../%E9%A2%86%E5%9F%9F%E6%A8%A1%E5%9E%8B%20Domain%20Model.md)                                       | DDD/DDD模式语言   | 积压     |
+| [命令与查询职责分离 CQRS](../../%E5%91%BD%E4%BB%A4%E4%B8%8E%E6%9F%A5%E8%AF%A2%E8%81%8C%E8%B4%A3%E5%88%86%E7%A6%BB%20CQRS.md)                                             | DDD/DDD扩展模式语言 | 积压     |
+| [命令模型 Command](../../%E5%91%BD%E4%BB%A4%E6%A8%A1%E5%9E%8B%20Command.md)                                                 | DDD/DDD扩展模式语言 | 积压     |
+| [应用服务 Application Service](../../%E5%BA%94%E7%94%A8%E6%9C%8D%E5%8A%A1%20Application%20Service.md)                         | DDD/DDD扩展模式语言 | 积压     |
+| [战术设计 Tactical Design](../../%E6%88%98%E6%9C%AF%E8%AE%BE%E8%AE%A1%20Tactical%20Design.md)                                 | DDD/DDD扩展模式语言 | 积压     |
+| [战略设计 Stategic Desigin](../../%E6%88%98%E7%95%A5%E8%AE%BE%E8%AE%A1%20Stategic%20Desigin.md)                               | DDD/DDD扩展模式语言 | 积压     |
+| [解决方案空间 Solution Space](../../%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E7%A9%BA%E9%97%B4%20Solution%20Space.md)                               | DDD/DDD扩展模式语言 | 积压     |
+| [贫血模型 Anemic Domain Object](../../%E8%B4%AB%E8%A1%80%E6%A8%A1%E5%9E%8B%20Anemic%20Domain%20Object.md)                       | DDD/DDD扩展模式语言 | 积压     |
+| [问题空间 Problem Space](../../%E9%97%AE%E9%A2%98%E7%A9%BA%E9%97%B4%20Problem%20Space.md)                                     | DDD/DDD扩展模式语言 | 积压     |
+| [领域依赖求解器 DDR](../../%E9%A2%86%E5%9F%9F%E4%BE%9D%E8%B5%96%E6%B1%82%E8%A7%A3%E5%99%A8%20DDR.md)                                                   | DDD/DDD扩展模式语言 | 积压     |
+| [领域服务 Domain Service](../../%E9%A2%86%E5%9F%9F%E6%9C%8D%E5%8A%A1%20Domain%20Service.md)                                   | DDD/DDD扩展模式语言 | 积压     |
+| [领域策略 Policy Strategy](../../%E9%A2%86%E5%9F%9F%E7%AD%96%E7%95%A5%20Policy%20Strategy.md)                                 | DDD/DDD扩展模式语言 | 积压     |
+| [领域规格 Specification](../../%E9%A2%86%E5%9F%9F%E8%A7%84%E6%A0%BC%20Specification.md)                                     | DDD/DDD扩展模式语言 | 积压     |
+| [领域负载对象 DPO](../../%E9%A2%86%E5%9F%9F%E8%B4%9F%E8%BD%BD%E5%AF%B9%E8%B1%A1%20DPO.md)                                                     | DDD/DDD扩展模式语言 | 积压     |
+| [Actor模型](../../Actor%E6%A8%A1%E5%9E%8B.md)                                                           | DDD/通用模式语言    | 积压     |
+| [事件溯源 Event Sourcing](../../%E4%BA%8B%E4%BB%B6%E6%BA%AF%E6%BA%90%20Event%20Sourcing.md)                                   | DDD/通用模式语言    | 积压     |
+| [分层架构 Layered Architecture](../../%E5%88%86%E5%B1%82%E6%9E%B6%E6%9E%84%20Layered%20Architecture.md)                       | DDD/通用模式语言    | 积压     |
+| [基础设施 Infrastructure](../../%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD%20Infrastructure.md)                                   | DDD/通用模式语言    | 积压     |
+| [层超类型 Layer Supertype](../../%E5%B1%82%E8%B6%85%E7%B1%BB%E5%9E%8B%20Layer%20Supertype.md)                                 | DDD/通用模式语言    | 积压     |
+| [展现模型 Presentation Model](../../%E5%B1%95%E7%8E%B0%E6%A8%A1%E5%9E%8B%20Presentation%20Model.md)                           | DDD/通用模式语言    | 积压     |
+| [建造者模式 Builder](../../%E5%BB%BA%E9%80%A0%E8%80%85%E6%A8%A1%E5%BC%8F%20Builder.md)                                               | DDD/通用模式语言    | 积压     |
+| [持续查询 Continuous Query](../../%E6%8C%81%E7%BB%AD%E6%9F%A5%E8%AF%A2%20Continuous%20Query.md)                               | DDD/通用模式语言    | 积压     |
+| [持续集成 Continous Integration](../../%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90%20Continous%20Integration.md)                     | DDD/通用模式语言    | 积压     |
+| [断言 Assertion](../../%E6%96%AD%E8%A8%80%20Assertion.md)                                                 | DDD/通用模式语言    | 积压     |
+| [最终一致性](../../%E6%9C%80%E7%BB%88%E4%B8%80%E8%87%B4%E6%80%A7.md)                                                               | DDD/通用模式语言    | 积压     |
+| [模型 Model](../../%E6%A8%A1%E5%9E%8B%20Model.md)                                                         | DDD/通用模式语言    | 积压     |
+| [消息机制](../../%E6%B6%88%E6%81%AF%E6%9C%BA%E5%88%B6.md)                                                                 | DDD/通用模式语言    | 积压     |
+| [消费者驱动契约](../../%E6%B6%88%E8%B4%B9%E8%80%85%E9%A9%B1%E5%8A%A8%E5%A5%91%E7%BA%A6.md)                                                           | DDD/通用模式语言    | 积压     |
+| [用户界面 User Interface](../../%E7%94%A8%E6%88%B7%E7%95%8C%E9%9D%A2%20User%20Interface.md)                                   | DDD/通用模式语言    | 积压     |
+| [管道和过滤器模式 Pipe and Filter](../../%E7%AE%A1%E9%81%93%E5%92%8C%E8%BF%87%E6%BB%A4%E5%99%A8%E6%A8%A1%E5%BC%8F%20Pipe%20and%20Filter.md)                         | DDD/通用模式语言    | 积压     |
+| [表象状态传递 REST](../../%E8%A1%A8%E8%B1%A1%E7%8A%B6%E6%80%81%E4%BC%A0%E9%80%92%20REST.md)                                                   | DDD/通用模式语言    | 积压     |
+| [观察者模式 Observer](../../%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F%20Observer.md)                                             | DDD/通用模式语言    | 积压     |
+| [调停者模式](../../%E8%B0%83%E5%81%9C%E8%80%85%E6%A8%A1%E5%BC%8F.md)                                                               | DDD/通用模式语言    | 积压     |
+| [超媒体展现 HATEOAS](../../%E8%B6%85%E5%AA%92%E4%BD%93%E5%B1%95%E7%8E%B0%20HATEOAS.md)                                               | DDD/通用模式语言    | 积压     |
+| [远程过程调用 RPC](../../%E8%BF%9C%E7%A8%8B%E8%BF%87%E7%A8%8B%E8%B0%83%E7%94%A8%20RPC.md)                                                     | DDD/通用模式语言    | 积压     |
+| [防腐层 Anticorruption Layer](../../%E9%98%B2%E8%85%90%E5%B1%82%20Anticorruption%20Layer.md)                         | DDD/通用模式语言    | 积压     |
+| [单一职责原则 SRP](../../%E5%8D%95%E4%B8%80%E8%81%8C%E8%B4%A3%E5%8E%9F%E5%88%99%20SRP.md)                                                     | 软件设计原则        | 积压     |
 
 
