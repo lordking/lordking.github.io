@@ -1,11 +1,12 @@
 ---
-layout: post
+title: Docker在ubuntu下的安装配置说明
 tags: 技术经验
+categories: technology
 status: 积压
 priority: 1
-title: Docker在ubuntu下的安装配置说明
-category: technology
-publish:  _posts/technology/2022-12-25-install-docker-in-ubuntu
+layout: post
+directory: _posts/technology
+publish: 2022-12-25-install-docker-in-ubuntu
 ---
 
 # Docker在ubuntu下的安装配置说明
