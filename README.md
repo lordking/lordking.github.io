@@ -286,7 +286,7 @@ git push -u origin main
 1. 进入你创建的仓库，如上例：`https://github.com/lordking/lordking.github.io`
 2. 打开`Settings`
 3. 点击`Pages`，输入如下类型配置
-![[github_settings_pages.png]]
+![[lordking.github.io/assets/images/github_settings_pages.png]]
 
 
 ```

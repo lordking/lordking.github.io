@@ -52,8 +52,8 @@ publish: ddd-modeling
 
 ## 战略设计
 
-1. 运用名为[限界上下文 Bounded Context](%E9%99%90%E7%95%8C%E4%B8%8A%E4%B8%8B%E6%96%87%20Bounded%20Context)的战略设计模式来分离领域模型。
-2. 在明确的限界上下文中发展一套领域模型的[通用语言 Ubiquitous Language](%E9%80%9A%E7%94%A8%E8%AF%AD%E8%A8%80%20Ubiquitous%20Language)，模型在限界上下文中实现。
+1. 运用名为[限界上下文 Bounded Context](限界上下文%20Bounded%20Context.md)的战略设计模式来分离领域模型。
+2. 在明确的限界上下文中发展一套领域模型的[通用语言 Ubiquitous Language](通用语言%20Ubiquitous%20Language.md)，模型在限界上下文中实现。
 3. 在开始阶段，限界上下文是问题空间大一部分。当概念更加清晰时，限界上下文将被转移到解决方案空间。
 4. 发展核心域可以使你的组织在与其他组织的竞争中脱颖而出。至少，它标明了组织的业务主航道
 
@@ -64,7 +64,7 @@ publish: ddd-modeling
 - 集成上下文
 
 包含模式：
-- [限界上下文 Bounded Context](%E9%99%90%E7%95%8C%E4%B8%8A%E4%B8%8B%E6%96%87%20Bounded%20Context)
+- [限界上下文 Bounded Context](限界上下文%20Bounded%20Context.md)
 - 通用语言
 - 子域：核心域、支撑子域、通用子域
 - 上下文映射
