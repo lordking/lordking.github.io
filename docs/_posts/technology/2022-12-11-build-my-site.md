@@ -1,6 +1,7 @@
 ---
 title: 我的个人网站建设笔记
-categories: 技术经验
+tags: 技术经验
+categories: technology
 status: 积压
 priority: 1
 layout: post
