@@ -1,7 +1,12 @@
 ---
-layout: default
 title: DDD工作坊
+status: 积压
+priority: 1
+layout: default
+directory: ddd
 nav_order: 2
+parent: DDD工作坊
+publish: index
 has_children: true
 ---
 
