@@ -8,4 +8,4 @@ publish: index
 permalink: /
 ---
 
-从这里开始
+从这里开始...
