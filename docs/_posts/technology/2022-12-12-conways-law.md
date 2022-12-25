@@ -1,10 +1,14 @@
 ---
+title: 康威定律
+tags: 软件架构
+status: 积压
+priority: 1
 layout: post
 category: technology
-tags: 软件架构
-title: 康威定律
-share:  _posts/technology/2022-12-12-conways-law
+publish: _posts/technology/2022-12-12-conways-law
 ---
+
+
 
 # 康威定律
 
