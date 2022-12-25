@@ -4,11 +4,12 @@ tags: DDD
 status: 积压
 priority: 5
 layout: default
-category: ddd
+directory: ddd
 nav_order: 5
 parent: DDD工作坊
 publish: ddd-growth-path
 ---
+
 
 DDD认知能力
 客观情况
