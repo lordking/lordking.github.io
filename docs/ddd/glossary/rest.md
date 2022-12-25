@@ -5,7 +5,7 @@ status: 积压
 priority: 1
 layout: default
 category: ddd/glossary
-parent: DDD 模式全景图
+parent: DDD 词汇表
 publish: rest
 ---
 
