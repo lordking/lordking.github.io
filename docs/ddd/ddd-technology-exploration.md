@@ -1,14 +1,21 @@
 ---
-layout: default
 title: DDD 技术探索
-category: DDD
+tags: DDD
+status: 积压
+priority: 5
+layout: default
+category: ddd
 nav_order: 6
 parent: DDD工作坊
-permalink: /ddd/technology-exploration
+publish: ddd-technology-exploration
 ---
 
-<h2>领域故事讲述</h2>
+# DDD 技术探索
 
-<h2>事件风暴</h2>
+## 领域故事讲述
 
-<h2>领域专用语言DSL</h2>
+
+## 事件风暴
+
+
+## 领域专用语言DSL
