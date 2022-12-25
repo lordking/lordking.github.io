@@ -1,17 +1,31 @@
 ---
-layout: default
 title: DDD 成长之路
-category: DDD
+tags: DDD
+status: 积压
+priority: 5
+layout: default
+category: ddd
 nav_order: 5
 parent: DDD工作坊
-permalink: /ddd/growth-path
+publish: ddd-growth-path
 ---
 
-<h2>DDD推广难题</h2>
+DDD认知能力
+客观情况
 
-<h2>DDD成熟度模型</h2>
+DDD难题
+- 团队成员DDD知识水平
+- 很难寻找到合适的领域专家
+    常常出现的状况是
+    -   缺少对你所工作的领域和业务真正了解的人
+    -   领域专家常常工作很忙，没有足够时间深入沟通
+- 建立通用语言
+- 领域模型与数据模型的斗争
 
-<h2>个人成长之路</h2>
+## 成熟度模型
 
-<h2>在团队中推广DDD</h2>
 
+## 个人学习
+
+
+## 团队推广
