@@ -5,7 +5,6 @@ status: 积压
 priority: 1
 layout: default
 category: ddd/glossary
-nav_order: 1
 parent: DDD 模式全景图
 publish: rest
 ---
