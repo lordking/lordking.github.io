@@ -1,15 +1,13 @@
 ---
 title: 康威定律
 tags: 软件架构
-categories: technology
+categories: notes technology
 status: 积压
 priority: 1
 layout: post
 directory: _posts/technology
 publish: 2022-12-12-conways-law
 ---
-
-
 
 # 康威定律
 
