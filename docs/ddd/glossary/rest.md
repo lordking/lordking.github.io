@@ -1,6 +1,6 @@
 ---
 title: 表象状态传递 REST
-tags: DDD/DDD模式语言
+tags: DDD/通用模式语言
 status: 积压
 priority: 1
 layout: default
