@@ -16,7 +16,7 @@ publish: ddd-glossary
 由《领域驱动设计》和《领域驱动设计参考》定义的领域驱动设计的DDD模式语言
 
 在DDD模式语言中，最为核心的概念
-- [领域 Domain](%E9%A2%86%E5%9F%9F%20Domain)
+- [domain](./glossary/domain.md)
 - [通用语言 Ubiquitous Language](%E9%80%9A%E7%94%A8%E8%AF%AD%E8%A8%80%20Ubiquitous%20Language)
 - 上下文
 - [限界上下文 Bounded Context](%E9%99%90%E7%95%8C%E4%B8%8A%E4%B8%8B%E6%96%87%20Bounded%20Context)
@@ -31,7 +31,6 @@ publish: ddd-glossary
 | [上下文映射 Context Mapping](../../%E4%B8%8A%E4%B8%8B%E6%96%87%E6%98%A0%E5%B0%84%20Context%20Mapping.md)                               | 积压     |
 | [领域模型 Domain Model](../../%E9%A2%86%E5%9F%9F%E6%A8%A1%E5%9E%8B%20Domain%20Model.md)                                       | 积压     |
 | [领域专家 Domain Expert](../../%E9%A2%86%E5%9F%9F%E4%B8%93%E5%AE%B6%20Domain%20Expert.md)                                     | 积压     |
-| [领域 Domain](../../%E9%A2%86%E5%9F%9F%20Domain.md)                                                       | 积压     |
 | [限界上下文 Bounded Context](../../%E9%99%90%E7%95%8C%E4%B8%8A%E4%B8%8B%E6%96%87%20Bounded%20Context.md)                               | 积压     |
 | [通用语言 Ubiquitous Language](../../%E9%80%9A%E7%94%A8%E8%AF%AD%E8%A8%80%20Ubiquitous%20Language.md)                         | 积压     |
 | [跟随者 Conformist](../../%E8%B7%9F%E9%9A%8F%E8%80%85%20Conformist.md)                                             | 积压     |
@@ -48,6 +47,7 @@ publish: ddd-glossary
 | [发布的语言 Published Language](../../%E5%8F%91%E5%B8%83%E7%9A%84%E8%AF%AD%E8%A8%80%20Published%20Language.md)                         | 积压     |
 | [共享内核 Shared Kernel](../../%E5%85%B1%E4%BA%AB%E5%86%85%E6%A0%B8%20Shared%20Kernel.md)                                     | 积压     |
 | [值对象 Value Object](../../%E5%80%BC%E5%AF%B9%E8%B1%A1%20Value%20Object.md)                                         | 积压     |
+| [领域 Domain](./glossary/domain.md)                                                       | 积压     |
 
 
 ## DDD扩展模式语言
