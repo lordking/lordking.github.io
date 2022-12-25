@@ -3,8 +3,8 @@ title: Rust语言入门
 status: 积压
 priority: 1
 layout: default
-category: courses
-nav_order: 2
+directory: courses
+nav_order: 3
 parent: 编程课堂
 publish: rust-primier
 ---
