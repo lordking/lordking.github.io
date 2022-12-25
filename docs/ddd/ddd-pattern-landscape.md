@@ -48,7 +48,6 @@ publish: ddd-pattern-landscape
 | [限界上下文 Bounded Context](../../%E9%99%90%E7%95%8C%E4%B8%8A%E4%B8%8B%E6%96%87%20Bounded%20Context.md)                               | 积压     |
 | [大泥球 Big Ball of Mud](../../%E5%A4%A7%E6%B3%A5%E7%90%83%20Big%20Ball%20of%20Mud.md)                                   | 积压     |
 | [聚合 Aggregate](../../%E8%81%9A%E5%90%88%20Aggregate.md)                                                 | 积压     |
-| [表象状态传递 REST](./glossary/rest.md)                                                   | 积压     |
 
 
 ## DDD扩展模式语言
@@ -100,5 +99,6 @@ publish: ddd-pattern-landscape
 | [分层架构 Layered Architecture](../../%E5%88%86%E5%B1%82%E6%9E%B6%E6%9E%84%20Layered%20Architecture.md)   | 积压     |
 | [事件溯源 Event Sourcing](../../%E4%BA%8B%E4%BB%B6%E6%BA%AF%E6%BA%90%20Event%20Sourcing.md)               | 积压     |
 | [层超类型 Layer Supertype](../../%E5%B1%82%E8%B6%85%E7%B1%BB%E5%9E%8B%20Layer%20Supertype.md)             | 积压     |
+| [表象状态传递 REST](./glossary/rest.md)                               | 积压     |
 
 
