@@ -1,7 +1,7 @@
 ---
 title: Docker在ubuntu下的安装配置说明
 tags: 技术经验
-categories: technology
+categories: notes technology
 status: 积压
 priority: 1
 layout: post
