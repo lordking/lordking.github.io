@@ -98,7 +98,7 @@ publish: ddd-glossary
 | [防腐层 Anticorruption Layer](../../%E9%98%B2%E8%85%90%E5%B1%82%20Anticorruption%20Layer.md)     | 积压     |
 | [分层架构 Layered Architecture](../../%E5%88%86%E5%B1%82%E6%9E%B6%E6%9E%84%20Layered%20Architecture.md)   | 积压     |
 | [事件溯源 Event Sourcing](../../%E4%BA%8B%E4%BB%B6%E6%BA%AF%E6%BA%90%20Event%20Sourcing.md)               | 积压     |
-| [层超类型 Layer Supertype](../../%E5%B1%82%E8%B6%85%E7%B1%BB%E5%9E%8B%20Layer%20Supertype.md)             | 积压     |
 | [表象状态传递 REST](./glossary/rest.md)                               | 积压     |
+| [层超类型 Layer Supertype](./glossary/layer-supertype.md)             | 积压     |
 
 
