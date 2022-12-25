@@ -87,7 +87,7 @@ publish: ddd-pattern-landscape
 | [消费者驱动契约](../../%E6%B6%88%E8%B4%B9%E8%80%85%E9%A9%B1%E5%8A%A8%E5%A5%91%E7%BA%A6.md)                                                           | DDD/通用模式语言    | 积压     |
 | [用户界面 User Interface](../../%E7%94%A8%E6%88%B7%E7%95%8C%E9%9D%A2%20User%20Interface.md)                                   | DDD/通用模式语言    | 积压     |
 | [管道和过滤器模式 Pipe and Filter](../../%E7%AE%A1%E9%81%93%E5%92%8C%E8%BF%87%E6%BB%A4%E5%99%A8%E6%A8%A1%E5%BC%8F%20Pipe%20and%20Filter.md)                         | DDD/通用模式语言    | 积压     |
-| [表象状态传递 REST](../../%E8%A1%A8%E8%B1%A1%E7%8A%B6%E6%80%81%E4%BC%A0%E9%80%92%20REST.md)                                                   | DDD/通用模式语言    | 积压     |
+| [表象状态传递 REST](./glossary/rest.md)                                                   | DDD/通用模式语言    | 积压     |
 | [观察者模式 Observer](../../%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F%20Observer.md)                                             | DDD/通用模式语言    | 积压     |
 | [调停者模式](../../%E8%B0%83%E5%81%9C%E8%80%85%E6%A8%A1%E5%BC%8F.md)                                                               | DDD/通用模式语言    | 积压     |
 | [超媒体展现 HATEOAS](../../%E8%B6%85%E5%AA%92%E4%BD%93%E5%B1%95%E7%8E%B0%20HATEOAS.md)                                               | DDD/通用模式语言    | 积压     |
