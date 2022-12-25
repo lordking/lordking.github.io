@@ -5,6 +5,7 @@ status: 积压
 priority: 1
 layout: default
 directory: ddd/glossary
+nav_order: 1
 parent: DDD 词汇表
 publish: rest
 ---
