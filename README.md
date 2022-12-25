@@ -129,7 +129,7 @@ bundle install
 bundle exec jekyll serve --livereload
 
 # Windows
-bundle exec jekyll serve --force-polling
+bundle exec jekyll serve --force-polling --incremental
 ```
 
 打开网页后，我们会发现之前的`Hello World`依然还在。没有关系，把`index.html`文件删除掉就可以了。
