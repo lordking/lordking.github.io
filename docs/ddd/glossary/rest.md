@@ -4,7 +4,7 @@ tags: DDD/通用模式语言
 status: 积压
 priority: 1
 layout: default
-category: ddd/glossary
+directory: ddd/glossary
 parent: DDD 词汇表
 publish: rest
 ---
