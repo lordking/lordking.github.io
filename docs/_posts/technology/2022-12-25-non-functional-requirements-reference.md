@@ -1,7 +1,7 @@
 ---
 title: 非功能性需求参考清单
 tags: 软件架构
-categories: technology
+categories: notes technology
 status: 积压
 priority: 1
 layout: post
