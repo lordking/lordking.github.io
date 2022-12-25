@@ -4,7 +4,7 @@ tags: DDD
 status: 积压
 priority: 5
 layout: default
-category: ddd
+directory: ddd
 nav_order: 4
 parent: DDD工作坊
 publish: ddd-engineering
