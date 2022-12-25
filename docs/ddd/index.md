@@ -4,7 +4,6 @@ status: 积压
 priority: 1
 layout: default
 nav_order: 2
-parent: DDD工作坊
 has_children: true
 directory: ddd
 publish: index
