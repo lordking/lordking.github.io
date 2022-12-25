@@ -10,7 +10,7 @@ directory: ddd
 publish: ddd-glossary
 ---
 
-# DDD模式全景图
+# DDD 词汇表
 
 ## DDD模式语言
 由《领域驱动设计》和《领域驱动设计参考》定义的领域驱动设计的DDD模式语言
