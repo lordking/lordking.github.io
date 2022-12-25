@@ -2,11 +2,11 @@
 title: 表象状态传递 REST
 tags: DDD/通用模式语言
 status: 积压
-priority: 1,2,3,4,5
+priority: 1
 layout: default
 category: ddd/glossary
 nav_order: 1
-parent: DDD工作坊
+parent: DDD词汇表
 publish: rest
 ---
 
