@@ -5,8 +5,7 @@ status: 积压
 priority: 1
 layout: default
 category: ddd/glossary
-nav_order: 1
-parent: DDD词汇表
+parent: DDD 模式全景图
 publish: rest
 ---
 
@@ -18,7 +17,7 @@ publish: rest
 >
 > - 名称(链接)
 
-这里填写...
+这里填写...![聚合图例1.png](../../../assets/images/%E8%81%9A%E5%90%88%E5%9B%BE%E4%BE%8B1.png)
 
 ## 2 什么是表象状态传递
 
