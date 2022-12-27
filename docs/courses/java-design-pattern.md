@@ -4,7 +4,6 @@ status: 编辑中
 priority: 5
 layout: default
 nav_order: 1
-has_children: true
 parent: 编程课堂
 directory: courses
 publish: java-design-pattern
