@@ -1,6 +1,6 @@
 ---
 title: 领域 Domain
-tags: DDD/DDD模式语言
+tags: DDD词汇/DDD模式语言
 status: 积压
 priority: 1
 layout: default
